@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #252529;
+    color: #fff;
+    line-height: 1.6;
+}
+#navigation{
+    height: 40px;
+    background-color: #333333;
+    position: sticky;
+    top: 0px;
+
+}
+#navigation #nav-parent{
+    width: 525px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+#navigation > #nav-parent > .nav-items{
+    padding: 10px 0px ;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 15px;
+}
+#navigation > #nav-parent > .nav-items:hover{
+    background-color: #414141;
+}
+.mytunes-sec{
+    height: 95vh;
+    background: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg) no-repeat center/cover;
+}
+.content{
+    text-align: center;
+    padding-top: 150px;
+   
+}
+.content h1{
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+.content h3{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.content p{
+    font-size: 1.3rem;
+}
+
+/* music section */
+
+.music-sec{
+    text-align: center;
+   padding: 0 3rem;
+    margin: 0 110px;
+}
+.music-sec h2{
+    font-size: 2.5rem;
+    padding-top: 37px;
+    margin-bottom: 40px;
+}
+.music-sec h2 i{
+    position: relative;
+    left: -12px;
+}
+.music-sec h3{
+    font-size: 2rem;
+    margin-bottom: 35px;
+}
+.music-sec article{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+.music-sec button{
+    color: white;
+    background-color: #B90415;
+    text-decoration: none;
+    padding: 1.3rem 1rem;
+    margin-bottom: 35px;
+    border: none;
+}
+.stn{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.music-sec button:hover{
+    background-color: #dc0b20;
+}
+
+.music-sec p{
+    margin-bottom: 17px;
+}
+.music-sec img{
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+/* video section */
+.video-sec{
+    background-color: #fff;
+    color: #333333;
+}
+.video-sec #container{
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+.video-sec #container h3{
+    font-size: 2rem;
+    padding-top: 70px;
+    margin-bottom: 35px;
+}
+.video-sec #container p{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+.video-sec button{
+    background-color: #103063;
+    padding:1.3rem 1rem;
+    border: none;
+
+}
+.video-sec button:hover{
+    background-color: #093c8e;
+}
+.video-sec button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+}
+.video-sec #container img{
+    margin-bottom: 30px;
+}
+
+/* entertainment section */
+
+.entertainment{
+    background: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg) ;
+    background-repeat:  no-repeat;background-size:  cover;
+    background-position: bottom;
+    padding: 10rem 0;
+    text-align: center;
+}
+#container {
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.entertainment #container h3{
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+.entertainment #container p{
+    font-size: 1.3rem;
+}
+
+/* giftcard section */
+
+.gift-card-sec{
+    background: #f4f4f4;
+    color: #333;    
+}
+.gift-card-sec #container{
+    display: flex;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    text-align: left;
+}
+.gift-card-sec #container img{
+    width: 100%;
+}
+.gift-card-sec #container h2{
+    font-size: 1.5rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.gift-card-sec #container article{
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+.gift-card-sec #container p{
+    margin-bottom: 15px;
+}
+hr{
+    margin-bottom: 10px;
+}
+.gift-card-sec #container a{
+    text-decoration: none;
+    color: #333; 
+}
+.gift-card-sec #container a i{
+    position: relative;
+    left: -5px;
+}
+
+/* footer section */
+
+footer #container{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 20px;
+    text-align: left;
+}
+footer #container ul{
+    list-style: none;
+
+    width: 264px;
+}
+footer #container ul li a{
+    text-decoration: none;
+    color: #C1CCCC;
+    font-size: small;
+}
+footer #container ul .footer-head{
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgb(64, 64, 64);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.copyright{
+    background-color: #333333;
+    text-align: center;
+    padding: 20px 0;
+}
